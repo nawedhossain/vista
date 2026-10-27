@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <title>Vista Visuals — Results-Driven Web Apps & Digital Systems</title>
+    <meta name="description" content="Vista Visuals builds high-performance custom web applications, advanced WordPress booking platforms, UI/UX design, and AI automations backed by a 14-day guarantee." />
+    
+    <!-- OpenGraph & Social Metadata -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Vista Visuals — Results-Driven Web Apps & Digital Systems" />
+    <meta property="og:description" content="We don't do template brochure sites. We build revenue-generating booking engines, custom web applications, and automated systems backed by a 100% 14-day guarantee." />
+    <meta property="og:site_name" content="Vista Visuals" />
+    <meta property="og:image" content="/logo.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Vista Visuals — Results-Driven Web Apps & Digital Systems" />
+    <meta name="twitter:description" content="We don't do template brochure sites. We build revenue-generating booking engines, custom web applications, and automated systems backed by a 100% 14-day guarantee." />
+    <meta name="twitter:image" content="/logo.png" />
+
+    <!-- Google Fonts: Space Grotesk (Headings) & Inter (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Vista Visuals",
+      "image": "/logo.png",
+      "description": "High-performance custom web applications, advanced WordPress booking systems, UI/UX design, RankMath SEO, and AI automations.",
+      "url": "https://vistavisuals.in",
+      "telephone": "",
+      "priceRange": "$$",
+      "sameAs": [
+        "https://www.youtube.com/@vistavisuals_in",
+        "https://www.facebook.com/vistavisuals.in",
+        "https://www.instagram.com/vistavisuals_in",
+        "https://x.com/vistavisuals.in",
+        "https://www.linkedin.com/company/vistavisualss"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Web App Development"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "WordPress Web Design & Advanced Systems"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "UI/UX Design in Figma"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "WordPress RankMath SEO"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "AI Automations & Ops"
+            }
+          }
+        ]
+      }
+    }
+    </script>
+
+    <!-- Cal.com Booking Popup Integration -->
+    <script type="text/javascript">
+      (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+      Cal("init", "vistavisuals", {origin:"https://app.cal.com"});
+      Cal.config = Cal.config || {};
+      Cal.config.forwardQueryParams = true;
+      Cal.ns.vistavisuals("ui", {"theme":"dark","cssVarsPerTheme":{"dark":{"cal-brand":"#3B88F3"}},"hideEventTypeDetails":false,"layout":"month_view"});
+    </script>
+
+    <!-- OpenWidget Live Chat Integration -->
+    <script>
+      window.__ow = window.__ow || {};
+      window.__ow.organizationId = "fdd1cdfb-48a5-46b3-a82d-69af014679c4";
+      window.__ow.integration_name = "manual_settings";
+      window.__ow.product_name = "openwidget";
+      ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[OpenWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.openwidget.com/openwidget.js",t.head.appendChild(n)}};!n.__ow.asyncInit&&e.init(),n.OpenWidget=n.OpenWidget||e}(window,document,[].slice))
+    </script>
+  </head>
+  <body class="bg-[#0A0A0F] text-slate-100 font-sans antialiased selection:bg-fuchsia-500/30 selection:text-white min-h-screen overflow-x-hidden">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "name": "Vista Visuals",
+  "description": "Results-first digital agency crafting custom web applications, advanced WordPress systems, UI/UX design, RankMath SEO, and AI automations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
